@@ -1,8 +1,8 @@
 def fizzbuzz(int)
   if int % 3 == 0
-    output = "fizz"
+    output = "Fizz"
   elseif int % 5 == 0
-    output = "buzz"
+    output = "Buzz"
   elseif (int % 3 == 0) && (int % 5 == 0)
-    output = "fizzbuzz"
+    output = "FizzBuzz"
 end
